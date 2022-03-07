@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.SplashScreen" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="App.Theme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -12,5 +12,22 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Splash Screen Theme (API >= 31) -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- The splash screen background, animated icon, and animation duration -->
+        <item name="windowSplashScreenBackground">@color/purple_200</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/animated_face</item>
+        <item name="windowSplashScreenAnimationDuration">2000</item>
+        <item name="postSplashScreenTheme">@style/App.Theme</item>
+    </style>
+    <!-- Splash Screen Theme (API >= 31) with Icon Background! -->
+    <style name="Theme.App.Starting.IconBackground" parent="Theme.SplashScreen.IconBackground">
+        <item name="windowSplashScreenBackground">@color/purple_200</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/animated_face</item>
+        <item name="windowSplashScreenAnimationDuration">2000</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/purple_700</item>
+        <item name="postSplashScreenTheme">@style/App.Theme</item>
     </style>
 </resources>
