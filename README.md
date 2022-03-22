@@ -10,5 +10,5 @@ Sample projects for Android 12.
 | <img src="splash-screen/screenshots/android-12-splash-screen.png" /> | <img src="rounded-corners/screenshots/android-12-rounded-corners.png" /> |
 | Rich Content Insertion ([Github](/rich-content-insertion)) ([Tutorial](https://yggr.medium.com/exploring-android-12-rich-content-insertion-328348e3a842)) | Recents URL Sharing (Pixel Only) ([Github](/recent-url-sharing)) ([Tutorial](https://yggr.medium.com/exploring-android-12-recents-url-sharing-pixel-only-5865899caef2)) |
 | <img src="rich-content-insertion/screenshots/android-12-rich-content-insertion.png" /> | <img src="recent-url-sharing/screenshots/android-12-recents-url-sharing.png" /> |
-| Actuator Effects ([Github](/actuator-effects)) | |
-| <img src="actuator-effects/screenshots/android-12-actuator-effects.png" /> | |
+| VibratorManager & New Vibration Primitives ([Github](/actuator-effects)) ([Tutorial](https://yggr.medium.com/exploring-android-12-vibratormanager-new-vibration-primitives-e862c95fe938)) | Data Access Rationale ([Github](/data-access-rationale)) ([Tutorial](https://yggr.medium.com/exploring-android-12-data-access-rationale-f0e713e87f96)) |
+| <img src="actuator-effects/screenshots/android-12-actuator-effects.png" /> | <img src="data-access-rationale/screenshots/android-12-data-access-rationale.png" /> |
