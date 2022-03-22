@@ -1,4 +1,4 @@
-# actuator-effects
+# data-access-rationale
 
 <div align="center">
     <img src="screenshots/android-12-data-access-rationale.png" />
