@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextAppearance.MaterialComponents.Body1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Original:" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/pokemon" />
+
+                <TextView
+                    style="@style/TextAppearance.MaterialComponents.Headline6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BULBASAUR" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextAppearance.MaterialComponents.Body1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Render Effect:" />
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/pokemon" />
+
+                <TextView
+                    android:id="@+id/text"
+                    style="@style/TextAppearance.MaterialComponents.Headline6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BULBASAUR" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Single Effects:" />
+
+        <Button
+            android:id="@+id/button_blur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blur" />
+
+        <Button
+            android:id="@+id/button_color_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color Filter" />
+
+        <Button
+            android:id="@+id/button_offset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Offset" />
+
+        <Button
+            android:id="@+id/button_shader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shader" />
+
+        <Button
+            android:id="@+id/button_bitmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bitmap" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chain Effects:" />
+
+        <Button
+            android:id="@+id/button_chain_effect_blur_color_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blur(Color Filter)" />
+
+        <Button
+            android:id="@+id/button_chain_effect_color_filter_blur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color Filter(Blur)" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blended Effects:" />
+
+        <Button
+            android:id="@+id/button_blend_mode_effect_blur_color_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blur - Color Filter" />
+
+        <Button
+            android:id="@+id/button_blend_mode_effect_color_filter_blur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color Filter - Blur" />
+
+        <Button
+            android:id="@+id/button_clear"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="Clear Effect" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
