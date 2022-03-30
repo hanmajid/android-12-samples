@@ -14,3 +14,5 @@ Sample projects for Android 12.
 | <img src="actuator-effects/screenshots/android-12-actuator-effects.png" /> | <img src="data-access-rationale/screenshots/android-12-data-access-rationale.png" /> |
 | Blurs, Color Filters, & Other Effects ([Github](/render-effect)) ([Tutorial](https://yggr.medium.com/exploring-android-12-blurs-color-filters-other-effects-34947f0c63a8)) | Permission Group Lookup ([Github](/permission-group-lookup)) ([Tutorial](https://yggr.medium.com/exploring-android-12-permission-group-lookup-60a154ea6da8)) |
 | <img src="render-effect/screenshots/android-12-render-effect.png" /> | <img src="permission-group-lookup/screenshots/android-12-permision-group-lookup.png" /> |
+| BiometricPrompt Localizable Strings ([Github](/biometricprompt-localizable-strings)) ([Tutorial](https://yggr.medium.com/exploring-android-12-biometricprompt-localizable-strings-a65343766af3)) | |
+| <img src="biometricprompt-localizable-strings/screenshots/android-12-biometricprompt-localizable-strings.png" /> | |
